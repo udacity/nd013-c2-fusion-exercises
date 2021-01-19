@@ -106,7 +106,7 @@ while True:
         # l1_exercises.print_no_of_vehicles(frame) 
 
         # Example C1-3-2 : display camera image
-        l1_examples.display_image(frame)
+        # l1_examples.display_image(frame)
 
         # Example C1-3-3 : print angle of vertical field of view
         # l1_examples.print_vfov_lidar(frame, lidar_name)
@@ -182,3 +182,6 @@ while True:
 
     # Exercise C2-4-5 : Compute precision and recall (part 2/2)
     # l2_exercises.compute_precision_recall(det_performance_all)
+
+    # Exercise C2-4-6 : Plotting the precision-recall curve
+    # l2_exercises.plot_precision_recall()

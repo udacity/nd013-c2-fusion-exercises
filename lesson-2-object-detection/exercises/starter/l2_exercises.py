@@ -24,6 +24,16 @@ import matplotlib
 matplotlib.use('wxagg') # change backend so that figure maximizing works on Mac as well     
 import matplotlib.pyplot as plt
 
+# Exercise C2-4-6 : Plotting the precision-recall curve
+def plot_precision_recall(): 
+
+    # Please note: this function assumes that you have pre-computed the precions/recall value pairs from the test sequence
+    #              by subsequently setting the variable configs.conf_thresh to the values 0.1 ... 0.9 and noted down the results.
+    
+    # Please create a 2d scatter plot of all precision/recall pairs 
+
+
+
 # Exercise C2-3-4 : Compute precision and recall
 def compute_precision_recall(det_performance_all, conf_thresh=0.5):
 
