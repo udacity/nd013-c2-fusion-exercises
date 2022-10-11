@@ -55,8 +55,8 @@ def render_bb_over_bev(bev_map, labels, configs, vis=False):
     
     # display bev map
     if vis==True:
-        bev_map_cpy = cv2.rotate(bev_map_cpy, cv2.ROTATE_180)   
-        cv2.imshow("BEV map", bev_map_cpy)
+        bev_map_rot = cv2.rotate(bev_map_cpy, cv2.ROTATE_180)   
+        cv2.imshow("BEV map", bev_map_rot)
         cv2.waitKey(0)          
 
     return bev_map_cpy 
